@@ -122,6 +122,7 @@ export default function Tela_inicial() {
             <h3>10</h3>
           </Card>
           <Card>
+            <h1>1123123123</h1>
             <p>Certificados Emitidos</p>
             <h3>4</h3>
           </Card>
