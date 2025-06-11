@@ -1,0 +1,19 @@
+1- npm run dev (iniciar o server). 
+    obs: tem de estar na pasta reactapp.
+2- git config --global user.email ""
+3- git config --global user.name ""
+4-
+5-
+6-
+7-
+8-
+9-
+10-
+11-
+12-
+13-
+
+
+telas a fazer (poor agora)
+1-  
+2- 
