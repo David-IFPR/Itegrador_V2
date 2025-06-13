@@ -113,11 +113,11 @@ export default function QuizzesPage() {
     <Container>
       <Sidebar>
         <SidebarTitle>DevQuiz Adm</SidebarTitle>
-        <SidebarButton onClick={() => navigate("/home/tela_inicial")}>Home</SidebarButton>
-        <SidebarButton active onClick={() => navigate("/home/Tela")}>Quizzes</SidebarButton>
-        <SidebarButton>Certificados</SidebarButton>
-        <SidebarButton>Ranking</SidebarButton>
-        <SidebarButton>Perfil</SidebarButton>
+        <SidebarButton onClick={() => navigate("/home/Tela")}>Home</SidebarButton>
+        <SidebarButton active onClick={() => navigate("##LOL##")}>Quizzes</SidebarButton>
+        <SidebarButton onClick={() => navigate("/home/Certificados")}>Certificados</SidebarButton>
+        <SidebarButton onClick={() => navigate("/home/Ranking")}>Ranking</SidebarButton>
+        <SidebarButton onClick={() => navigate("/home/Perfil")}>Perfil</SidebarButton>
       </Sidebar>
       <Content>
         <Title>Meus quizzes</Title>

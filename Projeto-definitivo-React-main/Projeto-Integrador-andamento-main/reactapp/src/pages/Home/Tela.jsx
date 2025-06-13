@@ -105,9 +105,9 @@ export default function Tela_inicial() {
         <SidebarTitle>DevQuiz Adm</SidebarTitle>
         <SidebarButton active>Home</SidebarButton>
         <SidebarButton onClick={() => navigate("/Home/Quizzes")}>Quizzes</SidebarButton>
-        <SidebarButton>Certificados</SidebarButton>
-        <SidebarButton>Ranking</SidebarButton>
-        <SidebarButton>Perfil</SidebarButton>
+        <SidebarButton onClick={() => navigate("/Home/Certificados")}>Certificados</SidebarButton>
+        <SidebarButton onClick={() => navigate("/home/Ranking")}>Ranking</SidebarButton>
+        <SidebarButton onClick={() => navigate("/home/Perfil")}>Perfil</SidebarButton>
       </Sidebar>
       <Content>
         <Title>DASHBOARD</Title>
